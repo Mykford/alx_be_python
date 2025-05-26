@@ -1,6 +1,7 @@
 user = input("What's the weather like today? (sunny/rainy/cold):")
 
-if user == "sunny":print("Wear a t-shirt and sunglasses.")
+if user == "sunny":
+    print("Wear a t-shirt and sunglasses. ")
     
 elif user == "rainy":
     print("Don't forget your umbrella and a raincoat.")
