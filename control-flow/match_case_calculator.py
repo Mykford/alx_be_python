@@ -1,8 +1,8 @@
 first_number = int(input("Enter the first number: "))
 second_number = int(input("Enter the second number: "))
-operator = input("Choose the operation (+, -, *, /): ")
+operations = input("Choose the operation (+, -, *, /): ")
 
-match operator:
+match operations:
     case "+":
         result = first_number + second_number
     case "-":
@@ -13,8 +13,5 @@ match operator:
         if second_number == 0:
             print("Cannot divide by zero")
         else:result = first_number / second_number
-    case _:
-        print("Invalid operator")
-        exit()
-
+    
 print(f"The result is [{result}]")
