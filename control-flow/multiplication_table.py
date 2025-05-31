@@ -1,6 +1,6 @@
-number = input('Enter a number to see its multiplication table: ')
-number = int(number)
+x = input('Enter a x to see its multiplication table: ')
+x = int(x)
 
-for i in range(1, 11):
-    result = number * i
-    print(number, '*', i, '=', result)
+for y in range(1, 11):
+    z = x * y
+    print(x, '*', y, '=', z)
