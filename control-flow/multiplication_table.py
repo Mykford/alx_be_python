@@ -3,4 +3,4 @@ x = int(x)
 
 for y in range(1, 11):
     z = x * y
-    print(x, '*', y, '=', z)
+    print(f"{x} * {y} = {z}")
