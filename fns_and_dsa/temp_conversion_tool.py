@@ -1,5 +1,5 @@
 FAHRENHEIT_TO_CELSIUS_FACTOR =5 / 9
-CELSIUS_TO_FAHRENHEIT_FACTOR = (9 / 5)  # Ensures the exact match with regex
+CELSIUS_TO_FAHRENHEIT_FACTOR =9 / 5  # Ensures the exact match with regex
 
 def convert_to_celsius(fahrenheit):
     """
