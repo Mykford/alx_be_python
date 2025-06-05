@@ -29,4 +29,4 @@ elif unit == "F":
     converted_temp = convert_to_celsius(temperature)
     print(f"{temperature:.2f}°F is {converted_temp:.2f}°C")  # Format output
 else:
-    print("Invalid input. Please enter 'C' for Celsius or 'F' for Fahrenheit.")  # Improved error handling
+    print("Invalid temperature. Please enter a numeric value")  
