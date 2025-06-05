@@ -8,7 +8,7 @@ def convert_to_celsius(fahrenheit):
     :param fahrenheit: Temperature in Fahrenheit
     :return: Temperature in Celsius
     """
-    return (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS
+    return (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
 
 def convert_to_fahrenheit(celsius):
     """
@@ -17,7 +17,7 @@ def convert_to_fahrenheit(celsius):
     :param celsius: Temperature in Celsius
     :return: Temperature in Fahrenheit
     """
-    return (celsius * CELSIUS_TO_FAHRENHEIT) + 32
+    return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
 
 temperature = float(input("Enter the temperature to convert: "))
 unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ".upper())
