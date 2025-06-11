@@ -14,11 +14,11 @@ def safe_divide(numerator, denominator):
        return f"The result of the division is {result}"
        
     except TypeError:
-        print("Error: Both numerator and denominator must be numbers.")
+        return "Error: Both numerator and denominator must be numbers."
         
     except ZeroDivisionError:
-        print("Error: Cannot divide by zero.")
+        return "Error: Cannot divide by zero."
         
     except ValueError:
-        print("Error: Please enter numeric values only.")
+        return "Error: Please enter numeric values only."
         
