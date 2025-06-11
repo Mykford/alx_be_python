@@ -12,6 +12,8 @@ def safe_divide(numerator, denominator):
     try:
        result = float(numerator) / float(denominator)
        print(f"The result of division is {result}")
+       return result
+       
     except TypeError:
         print("Error: Both numerator and denominator must be numbers.")
         
