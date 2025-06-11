@@ -10,7 +10,8 @@ def safe_divide(numerator, denominator):
         float: The result of the division if successful, otherwise None.
     """
     try:
-       return float(numerator) / float(denominator)
+       result =float(numerator) / float(denominator)
+       print(f"The result of division is: {result}")
     except TypeError:
         print("Error: Both numerator and denominator must be numbers.")
         
