@@ -32,7 +32,7 @@ class Library:
         
     def list_books(self):
         print("Books in the library:")
-        for book in self._books:
+        for book in self.books:
             if isinstance(book, EBook):
                 print(f"EBook: {book.title} by {book.author}, Size: {book.file_size}MB")
             elif isinstance(book, PrintBook):
